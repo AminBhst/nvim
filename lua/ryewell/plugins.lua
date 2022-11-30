@@ -88,6 +88,10 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "nvim-tree/nvim-tree.lua"
 
+  -- buffer line
+  use "akinsho/bufferline.nvim"
+
+
   -- commenting
   use "JoosepAlviste/nvim-ts-context-commentstring"
   use "numToStr/Comment.nvim"

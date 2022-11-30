@@ -66,8 +66,11 @@ keymap("n", "<leader>lg", ":Telescope live_grep<cr>", opts)
 keymap("n", "<leader>bf", ":Telescope buffers<cr>", opts)
 
 -- Nerd Tree
-keymap("n", "<leader>nf", ":NERDTreeFocus<cr>", opts)
-keymap("n", "<leader>nt", ":NERDTreeToggle<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+
+-- git
+keymap("n", "<leader>gb", ":Gitsigns blame_line<cr>", opts)
+keymap("n", "<leader>gp", ":Gitsigns preview_hunk<cr>", opts)
 
 -- Visual Block --
 -- Move text up and down

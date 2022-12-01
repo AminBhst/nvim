@@ -90,6 +90,8 @@ M.on_attach = function(client, bufnr)
   end
   lsp_keymaps(bufnr)
   lsp_highlight_document(client)
+--  local lsp_format_modifications = require("lsp-format-modifications")
+--  lsp_format_modifications.attach(client, bufnr, { format_on_save = false }) 
 end
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()

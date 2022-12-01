@@ -47,6 +47,8 @@ keymap("n", "<A-h>", ":bprevious<CR>", opts)
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
+keymap("n", '<Leader>fr', ':lua vim.lsp.buf.formatting() <cr>', opts)
+
 -- Switch to normal mode
 keymap("i", "jj", "<ESC>", opts)
 
@@ -75,6 +77,7 @@ keymap("n", "<leader>gp", ":Gitsigns preview_hunk<cr>", opts)
 -- buffer line
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<leader>bd", ":bdelete<cr>", opts)
 
 -- Visual Block --
 -- Move text up and down

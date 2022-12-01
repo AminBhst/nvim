@@ -59,8 +59,11 @@ return packer.startup(function(use)
   use "morhetz/gruvbox"
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
+  use "andweeb/presence.nvim"
 
   use "windwp/nvim-autopairs"
+  use "moll/vim-bbye"
+  use "akinsho/toggleterm.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -91,6 +94,9 @@ return packer.startup(function(use)
   -- buffer line
   use "akinsho/bufferline.nvim"
 
+  -- linting
+  use "jose-elias-alvarez/null-ls.nvim"
+--  use "joechrisellis/lsp-format-modifications.nvim" does not work for formatters which do not support range formatting
 
   -- commenting
   use "JoosepAlviste/nvim-ts-context-commentstring"

@@ -73,6 +73,7 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 -- git
 keymap("n", "<leader>gb", ":Gitsigns blame_line<cr>", opts)
 keymap("n", "<leader>gp", ":Gitsigns preview_hunk<cr>", opts)
+keymap("n", "<leader>lgt", ":lua _LAZYGIT_TOGGLE()<cr>", opts)
 
 -- buffer line
 keymap("n", "<S-l>", ":bnext<CR>", opts)

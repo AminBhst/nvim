@@ -52,6 +52,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "MunifTanjim/nui.nvim"
 
   -- Aesthetic
   use "lunarvim/darkplus.nvim"
@@ -60,10 +61,25 @@ return packer.startup(function(use)
   use "ryanoasis/vim-devicons"
   use "kyazdani42/nvim-web-devicons"
   use "andweeb/presence.nvim"
-
+  use "glepnir/dashboard-nvim"
+  use "tanvirtin/monokai.nvim"
+  use "folke/tokyonight.nvim"
   use "windwp/nvim-autopairs"
   use "moll/vim-bbye"
   use "akinsho/toggleterm.nvim"
+  use "EdenEast/nightfox.nvim"
+
+
+  -- Flutter
+--[[   use { ]]
+--[[   "akinsho/flutter-tools.nvim", ]]
+--[[   requires = { "nvim-lua/plenary.nvim" }, ]]
+--[[   config = function() ]]
+--[[     require("ryewell.fluttertools").setup() ]]
+--[[   end, ]]
+--[[ } ]]
+  --
+  use "akinsho/flutter-tools.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -108,6 +124,11 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow"
+
+  -- DAP
+  use "mfussenegger/nvim-dap"
+  use "rcarriga/nvim-dap-ui"
+  use "ravenxrz/DAPInstall.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

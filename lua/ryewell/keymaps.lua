@@ -50,7 +50,7 @@ keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 keymap("n", '<Leader>fr', ':lua vim.lsp.buf.formatting() <cr>', opts)
 
 -- Switch to normal mode
-keymap("i", "jj", "<ESC>", opts)
+keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode

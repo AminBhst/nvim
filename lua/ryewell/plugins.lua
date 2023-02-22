@@ -68,6 +68,7 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use "akinsho/toggleterm.nvim"
   use "EdenEast/nightfox.nvim"
+  use "antosha417/nvim-lsp-file-operations"
 
 
   -- Flutter
@@ -87,8 +88,10 @@ return packer.startup(function(use)
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "williamboman/mason-lspconfig.nvim"
+  use "williamboman/mason.nvim"
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
+  require("lsp-file-operations").setup()
 
   use "vim-airline/vim-airline"
 

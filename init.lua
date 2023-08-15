@@ -16,4 +16,4 @@ require "ryewell.toggleterm"
 require "ryewell.dashboard"
 require "ryewell.flutter_tools"
 require "ryewell.command_maps"
-
+require "ryewell.nvim_tree"

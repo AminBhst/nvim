@@ -70,6 +70,9 @@ return packer.startup(function(use)
   use "EdenEast/nightfox.nvim"
   use "antosha417/nvim-lsp-file-operations"
 
+  -- Java
+  use 'mfussenegger/nvim-jdtls'
+
 
   -- Flutter
   use "akinsho/flutter-tools.nvim"

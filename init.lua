@@ -17,3 +17,4 @@ require "ryewell.dashboard"
 require "ryewell.flutter_tools"
 require "ryewell.command_maps"
 require "ryewell.nvim_tree"
+--[[ require "ryewell.ftplugin.java" ]]

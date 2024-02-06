@@ -11,6 +11,7 @@ end
 local servers = {
   "jdtls",
   "lua_ls",
+  "rust_analyzer"
 }
 
 local settings = {

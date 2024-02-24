@@ -104,6 +104,11 @@ return packer.startup(function(use)
   -- ProjectMgr
   use "nvim-telescope/telescope.nvim"
   use "nvim-tree/nvim-tree.lua"
+  use {
+    "ThePrimeagen/harpoon",
+    branch = "harpoon2",
+    requires = { {"nvim-lua/plenary.nvim"} }
+}
 
   -- buffer line
   --[[ use "akinsho/bufferline.nvim" ]]

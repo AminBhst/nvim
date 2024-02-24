@@ -9,6 +9,7 @@ require "ryewell.treesitter"
 require "ryewell.autopairs"
 require "ryewell.comment"
 require "ryewell.gitsigns"
+require "ryewell.harpoon"
 --[[ require "ryewell.nvimtree" ]]
 require "ryewell.lsp.null-ls"
 require "ryewell.discord_presence"

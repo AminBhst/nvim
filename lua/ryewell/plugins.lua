@@ -93,6 +93,8 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/mason-lspconfig.nvim"
   use "williamboman/mason.nvim"
+  use "jay-babu/mason-nvim-dap.nvim"
+  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   require("lsp-file-operations").setup()
 
@@ -106,6 +108,7 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "nvim-tree/nvim-tree.lua"
   use 'ThePrimeagen/harpoon'
+  use {'nvim-telescope/telescope-ui-select.nvim' }
 
   -- buffer line
   --[[ use "akinsho/bufferline.nvim" ]]

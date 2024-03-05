@@ -11,7 +11,9 @@ end
 local servers = {
   "jdtls",
   "lua_ls",
-  "rust_analyzer"
+  "rust_analyzer",
+  "clangd",
+  "codelldb"
 }
 
 local settings = {

@@ -97,6 +97,7 @@ return packer.startup(function(use)
   use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   require("lsp-file-operations").setup()
+  use "Slotos/telescope-lsp-handlers.nvim"
 
   use "vim-airline/vim-airline"
 

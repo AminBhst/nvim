@@ -69,6 +69,7 @@ return packer.startup(function(use)
   use "akinsho/toggleterm.nvim"
   use "EdenEast/nightfox.nvim"
   use "antosha417/nvim-lsp-file-operations"
+  use "nvim-neotest/nvim-nio"
 
   -- Java
   use 'mfussenegger/nvim-jdtls'
@@ -98,6 +99,7 @@ return packer.startup(function(use)
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   require("lsp-file-operations").setup()
   use "Slotos/telescope-lsp-handlers.nvim"
+  use "RRethy/vim-illuminate"
 
   use "vim-airline/vim-airline"
 

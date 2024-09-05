@@ -100,6 +100,7 @@ return packer.startup(function(use)
   require("lsp-file-operations").setup()
   use "Slotos/telescope-lsp-handlers.nvim"
   use "RRethy/vim-illuminate"
+  use "stevearc/aerial.nvim"
 
   use "vim-airline/vim-airline"
 

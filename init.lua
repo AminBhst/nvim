@@ -24,4 +24,5 @@ require "ryewell.flutter_tools"
 require "ryewell.command_maps"
 require "ryewell.nvim_tree"
 require "ryewell.vim_illuminate"
+require "ryewell.aerial"
 --[[ require "ryewell.ftplugin.java" ]]

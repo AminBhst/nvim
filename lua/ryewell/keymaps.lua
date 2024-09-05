@@ -66,6 +66,7 @@ keymap("v", "p", '"_dP', opts)
 keymap("n", "<leader>ff", ":Telescope find_files<cr>", opts)
 keymap("n", "<leader>lg", ":Telescope live_grep<cr>", opts)
 keymap("n", "<leader>bf", ":Telescope buffers<cr>", opts)
+keymap("n", "<leader>ds", ":Telescope lsp_document_symbols<cr>", opts)
 
 -- Nerd Tree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)

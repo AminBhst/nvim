@@ -17,31 +17,31 @@ end
 
 --   פּ ﯟ   some other good icons
 local kind_icons = {
-  Text = "",
+  Text = "󰦨",
   Method = "m",
-  Function = "",
+  Function = "󰊕",
   Constructor = "",
   Field = "",
-  Variable = "",
-  Class = "",
+  Variable = "",
+  Class = "󰯳",
   Interface = "",
   Module = "",
   Property = "",
   Unit = "",
-  Value = "",
+  Value = "",
   Enum = "",
-  Keyword = "",
+  Keyword = "",
   Snippet = "",
-  Color = "",
-  File = "",
+  Color = "",
+  File = "󰈔",
   Reference = "",
-  Folder = "",
+  Folder = "",
   EnumMember = "",
-  Constant = "",
+  Constant = "",
   Struct = "",
   Event = "",
-  Operator = "",
-  TypeParameter = "",
+  Operator = "",
+  TypeParameter = "",
 }
 
 cmp.setup {
@@ -119,11 +119,13 @@ cmp.setup {
     select = false,
   },
   window = {
+  completion = cmp.config.window.bordered({
+      border = 'rounded',
+    }),
    documentation = {
     border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
    }
   },
-  
   experimental = {
     ghost_text = false,
     native_menu = false,

@@ -21,7 +21,7 @@ require "ryewell.lualine"
 require "ryewell.lsp.null-ls"
 require "ryewell.discord_presence"
 require "ryewell.toggleterm"
-require "ryewell.dashboard"
+--[[ require "ryewell.dashboard" ]]
 require "ryewell.nvim_scrollbar"
 require "ryewell.flutter_tools"
 require "ryewell.command_maps"

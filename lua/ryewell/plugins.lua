@@ -70,6 +70,7 @@ return packer.startup(function(use)
   use "EdenEast/nightfox.nvim"
   use "antosha417/nvim-lsp-file-operations"
   use "nvim-neotest/nvim-nio"
+  use "nvim-lualine/lualine.nvim"
 
   -- Java
   use 'mfussenegger/nvim-jdtls'
@@ -95,14 +96,12 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim"
   use "williamboman/mason.nvim"
   use "jay-babu/mason-nvim-dap.nvim"
-  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   require("lsp-file-operations").setup()
   use "Slotos/telescope-lsp-handlers.nvim"
   use "RRethy/vim-illuminate"
   use "stevearc/aerial.nvim"
 
-  use "vim-airline/vim-airline"
 
   -- git
   use "lewis6991/gitsigns.nvim"
@@ -134,8 +133,9 @@ return packer.startup(function(use)
 
   -- DAP
   use "mfussenegger/nvim-dap"
-  use "rcarriga/nvim-dap-ui"
   use "ravenxrz/DAPInstall.nvim"
+  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+  use "leoluz/nvim-dap-go"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

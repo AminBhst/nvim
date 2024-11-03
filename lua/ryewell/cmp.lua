@@ -121,6 +121,7 @@ cmp.setup {
   window = {
   completion = cmp.config.window.bordered({
       border = 'rounded',
+      scrollbar = false,
     }),
    documentation = {
     border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },

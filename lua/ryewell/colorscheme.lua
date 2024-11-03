@@ -6,3 +6,10 @@ catch /^Vim\%((\a\+)\)\=:E185/
   set background=dark
 endtry
 ]]
+
+vim.cmd [[
+  highlight CmpScrollbarThumb guifg=#1E3A8A guibg=NONE
+]]
+vim.cmd [[
+  highlight CmpScrollbar guifg=#1E3A8A guibg=NONE
+]]

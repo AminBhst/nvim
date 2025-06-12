@@ -27,6 +27,9 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
+
+keymap("v", "<leader>y", "*y", opts)
+
 -- Cancel all highlights
 keymap("n", "<leader>c", ":nohls<cr>", opts)
 

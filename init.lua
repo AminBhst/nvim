@@ -1,31 +1,15 @@
-require "ryewell.options"
-require "ryewell.keymaps"
-require "ryewell.plugins"
-require "ryewell.colorscheme"
-require "ryewell.cmp"
-require "ryewell.lsp"
-require "ryewell.mason_nvim_dap"
-require "ryewell.nvim_dap_ui"
-require "ryewell.dap.go.dap_go"
-require "ryewell.dap.dap"
-require "ryewell.telescope"
-require "ryewell.telescope_ui_select"
-require "ryewell.telescope_lsp_handlers"
-require "ryewell.treesitter"
-require "ryewell.autopairs"
-require "ryewell.comment"
-require "ryewell.gitsigns"
-require "ryewell.harpoon"
-require "ryewell.lualine"
---[[ require "ryewell.nvimtree" ]]
-require "ryewell.lsp.null-ls"
-require "ryewell.discord_presence"
-require "ryewell.toggleterm"
---[[ require "ryewell.dashboard" ]]
-require "ryewell.nvim_scrollbar"
-require "ryewell.flutter_tools"
-require "ryewell.command_maps"
-require "ryewell.nvim_tree"
-require "ryewell.vim_illuminate"
-require "ryewell.aerial"
---[[ require "ryewell.ftplugin.java" ]]
+require 'ryewell.plugins'
+require 'ryewell.options'
+require 'ryewell.command_maps'
+require 'ryewell.autocmds'
+require 'ryewell.keymaps'
+require 'ryewell.plugins.telescope'
+require 'ryewell.lsp'
+require 'ryewell.plugins.cmp'
+require 'ryewell.plugins.nvim_tree'
+require 'ryewell.plugins.lua_line'
+require 'ryewell.plugins.dashboard'
+require 'ryewell.plugins.presence'
+require 'ryewell.plugins.flutter_tools'
+require 'ryewell.dap'
+require 'ryewell.dap-ui'
